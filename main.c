@@ -4,6 +4,7 @@
 #include <util/delay.h>
 #include <avr/interrupt.h>
 
+// teste
 #include "twi.h"
 
 uint8_t twi_scanner(uint8_t address);
