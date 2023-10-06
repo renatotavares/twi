@@ -2,7 +2,7 @@
 
 void twi_init()
 {
-	// SCL freq= F_CPU/(16+2(TWBR).4^TWPS)
+	SCL freq= F_CPU/(16+2(TWBR).4^TWPS)
 	TWBR = 72;     // set SCL to 100kHz
 	TWSR = 0;     // set prescaler
 }
